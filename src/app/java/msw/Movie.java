@@ -1,3 +1,5 @@
+package app.java.msw;
+
 public class Movie {
     private String title;
     private String code;

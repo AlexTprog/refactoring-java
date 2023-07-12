@@ -1,3 +1,5 @@
+package app.java.msw;
+
 import java.util.HashMap;
 
 public class RentalInfo {

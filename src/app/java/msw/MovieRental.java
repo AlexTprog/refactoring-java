@@ -1,3 +1,5 @@
+package app.java.msw;
+
 public class MovieRental {
     private String movieId;
     private int days;
