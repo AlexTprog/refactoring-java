@@ -1,6 +1,5 @@
 package app.java.msw;
 
-import app.java.msw.MovieRental;
 import java.util.List;
 
 public class Customer {
