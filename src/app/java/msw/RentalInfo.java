@@ -4,7 +4,14 @@ import java.util.HashMap;
 
 public class RentalInfo {
 
-  public String statement(Customer customer,HashMap<String, Movie> movies) {
+  public String statement(Customer customer) {
+    
+    HashMap<String, Movie> movies = new HashMap<String, Movie>();    
+    movies.put("F001", new Movie("You've Got Mail", "regular"));
+    movies.put("F002", new Movie("Matrix", "regular"));
+    movies.put("F003", new Movie("Cars", "childrens"));
+    movies.put("F004", new Movie("Fast & Furious X", "new"));
+
     double totalAmount = 0;
     int frequentEnterPoints = 0;
     String result = "Rental Record for " + customer.getName() + "\n";
